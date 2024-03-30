@@ -23,6 +23,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#40836FFF"
             android:orientation="vertical"
             android:padding="24dp">
 
@@ -33,7 +34,7 @@
                 android:text="Username" />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/lUsername"
                 style="@style/Widget.Material3.TextInputEditText.FilledBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +52,7 @@
                 android:text="Password" />
 
             <EditText
-                android:id="@+id/editTextTextPassword2"
+                android:id="@+id/lPassword"
                 style="@style/Widget.Material3.TextInputEditText.FilledBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,6 +83,7 @@
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="login"
                 android:text="Login"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
